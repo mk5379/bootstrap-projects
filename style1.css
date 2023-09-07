@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    }
+.img-1{
+    height: 25%;
+    margin-right: 30px;
+}
+.carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+}
+.carousel-control-next-icon{
+    color: black;
+    background-color: black;
+
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #007bff;
+}
+.footer-1{
+    text-align: center;
+}
+.footer-2{
+    text-align: center;
+}

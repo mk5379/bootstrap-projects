@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-project/style1.css">
+    <link rel="stylesheet" href="../bootstrap/fontawesome-free-6.4.2-web/css/all.min.css">
+    <script src="../bootstrap/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../Images/IMG_8194-modified (2).png" height="50px"  width="50px" style="margin-right: 15px; ">Min Khant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div class="row home">
+        <div class="col-xl-8">
+            <h1>MSI</h1>
+            <h3>Mandalay Software Inistitute</h3>
+        </div>
+        <div class="col-xl-4">
+            <img src="../Images/3426526.jpg" class="img-1" alt="">
+        </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../Images/3785210.jpg" style="height: 600px;width: 600px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Images/3784896.jpg" style="height: 600px;width: 600px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../Images/web-img.png" style="height: 600px;width: 600px;" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="color: black;">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-12" style="background-color: red;height: 100px; text-align: center; color: white; font-size: xx-large;">Red</div>
+        <div class="col-xl-3 col-lg-6 col-md-12" style="background-color: green;height: 100px; text-align: center; color: white; font-size: xx-large;">Green</div>
+        <div class="col-xl-3 col-lg-6 col-md-12" style="background-color: blue;height: 100px; text-align: center; color: white; font-size: xx-large;">Blue</div>
+        <div class="col-xl-3 col-lg-6 col-md-12" style="background-color: black;height: 100px; text-align: center; color: white; font-size: xx-large;">Blue</div>
+    </div> 
+
+    <div class="row mt-5">
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="../Images/web-img.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="../Images/web-img.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card mx-auto" style="width: 18rem;">
+            <img src="../Images/web-img.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-outline-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div>
+      <div class="footer-1">
+        <h3>Thank your connection with us.</h3>
+        <p>You can aslo connect with this social media</p>
+      </div>
+      <div class="footer-2">
+        <i class="fa-brands fa-facebook" style="font-size: 100px;"></i>
+        <i class="fa-brands fa-facebook-messenger" style="font-size: 100px;"></i>
+        <i class="fa-brands fa-youtube" style="font-size: 100px;"></i>
+      </div>
+    </div>
+</body>
+</html>
